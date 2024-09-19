@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Register</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f8ff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        form {
+            background-color: #ffffff;
+            border-radius: 8px;
+            padding: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            width: 300px;
+        }
+        label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: bold;
+        }
+        input[type="text"] {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 12px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        input[type="submit"] {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            width: 100%;
+        }
+        input[type="submit"]:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <form action="CallingServlet1">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name">
+        
+        <label for="lastname">Last Name</label>
+        <input type="text" id="lastname" name="lastname">
+        
+        <label for="email">Email</label>
+        <input type="text" id="email" name="email">
+        
+        <input type="submit" value="Register">
+    </form>
+</body>
+</html>
+
+
+
+
+
+<!-- 
+original code
+
+!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Register</title>
+</head>
+<body>
+<form action="CallingServlet1">
+	Name<input type = "text" name="name"><br>
+	LastName<input type="text" name ="lastname"><br>
+	Email<input type ="text" name ="email"><br>
+	<input type="submit">
+</form>
+</body>
+</html>
+
+
+ -->
